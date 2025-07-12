@@ -1,12 +1,46 @@
-# React + Vite
+# 🏥 Clinic Appointment Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive frontend-only React app to manage doctor appointments in a clinic or hospital.
 
-Currently, two official plugins are available:
+> ✅ Built for Pfactorial Technologies Assignment  
+> 👨‍⚕️ Role: Frontend Developer 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✅ Features
+
+- 🔐 Login with mock credentials
+- 🗓️ Month View Calendar (using `react-calendar`)
+- 🧑‍⚕️ Add/Edit/Delete Appointments
+- 📦 Data stored in localStorage
+- 📱 Fully Responsive Design (Mobile + Desktop)
+- 👁️ Password toggle + strength validation
+- ✨ Clean UI with Tailwind CSS
+
+---
+
+## 🧠 Tech Stack
+
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS + custom styles
+- 📆 React Calendar
+- 💾 LocalStorage (for persistence)
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/Aravindkumar5500/appointment-calendar.git
+
+# 2. Move into the project
+cd appointment-calendar
+
+# 3. Install dependencies
+npm install
+
+# 4. Start development server
+npm run dev
+
